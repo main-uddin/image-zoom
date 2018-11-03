@@ -1,0 +1,15 @@
+body{
+    display: flex;
+}
+.img{
+    width: 20em;
+    height: 20em;
+}
+.show__zoom--image{
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+}
+.img:hover{
+    cursor: zoom-in;
+}
